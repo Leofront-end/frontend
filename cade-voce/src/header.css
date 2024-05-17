@@ -1,0 +1,48 @@
+.Header{
+    width: 100vw;
+    height: 102px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.Header img {
+    align-content: center;
+}
+
+.Header nav {
+    width: 892px;
+}
+
+.Header ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap:51px;
+}
+
+.Header li{
+    
+    list-style: none;
+}
+
+.Header a{
+    text-decoration: none;
+    color:black;
+    font-size: 21px;
+}
+
+.Button{
+    margin: 0;
+    bottom: 0;
+    height: 100%;   
+}
+
+.Header button{
+    padding: 12px 26px;
+    color: white;
+    border-radius: 8px;
+    border: 1.33px black;
+    background-color: #7723CD;
+    height: 54px;    
+}

@@ -1,17 +1,19 @@
 import logo from './scoobydoo.svg';
 import './App.css';
+import Header from './header.js';
+import './header.css';
 
 function App() {
   return (
     <div className="App">
+      
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-         Scooby, cade você meu filho?
-        </p>
+        <Header />
         
       </header>
+      
     </div>
+
   );
 }
 
